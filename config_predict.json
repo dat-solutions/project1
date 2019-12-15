@@ -1,0 +1,11 @@
+{
+    "model" : {
+        "anchors":              [5,4, 8,7, 13,10, 19,15, 27,24, 54,22, 103,37, 142,78, 1210,972],
+        "labels":               ["UAS_multirotor", "aeroplane"]
+    },
+
+    "train": {
+        "gpus":                 "0",
+        "saved_weights_name":   "E7_weights_drone.h5"
+    }
+}
